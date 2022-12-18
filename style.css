@@ -1,7 +1,7 @@
 
 body {
   font-family: Roboto, sans-serif;
-  background-color: #000000;
+  background-color: #636060;
   color: white;
 }
 
@@ -10,7 +10,7 @@ body {
   margin-left: 80px;
 }
 
-  /* Свойства ссылок */
+  
 a {
   display: block;
   text-decoration:none;
@@ -19,12 +19,12 @@ a {
   color: white;
 }
 
-  /* Что делать при наведении на ссылку */
+  
 a:hover {
   color:darkred;
 }
 
-  /* Этим свойством добавляем подчеркивание через создание псевдокласса */
+ 
 a::after {
   content: '';
   position: absolute;
@@ -44,17 +44,17 @@ h2 {
   margin: 1.25em 0;
 }
 
-  /* Свойства фотографии*/
+  
 .photo {
   border-radius: 100px;
-  /* Радиус скругления */
+  
   border: 3px solid transparent;
-  /* Параметры рамки */
+  
   box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.52);
   object-fit: cover;
 }
 
-  /* Эффект наведения на картинку */
+  
 .photo:hover {
   border: 3px solid #FFD700;
 }
